@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 favorite collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Favorite Games</h1>
+    
+    <form id="gameForm">
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" id="title" required>
+        <br>
+        <label for="developer">Developer:</label>
+        <br>
+        <input type="text" id="developer" required>
+        <br>
+        <label for="rating">Rating:</label>
+        <br>
+        <input type="number" id="rating" min="1" max="10" required>
+        <br>
+        <label for="played">Played:</label>
+        <input type="checkbox" id="played">
+        <br>
+        <button type="submit">Add Game</button>
+    </form>
+
+    <h3>Games</h3>
+    <table id="gamesTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Developer</th>
+                <th>Rating</th>
+                <th>Played</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
